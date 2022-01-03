@@ -79,7 +79,7 @@ python train_search.py
 ```
 
 ### Stage 2: Train via CDT
-1. Specify the training setting (distributed) in ***config_train.py***:
+1. Specify the training setting in ***config_train.py***:
 ```
 C.dataset_path = "path-to-dataset"
 C.load_path = "path-to-searched-arch"
